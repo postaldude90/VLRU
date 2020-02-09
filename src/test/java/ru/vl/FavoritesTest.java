@@ -1,5 +1,7 @@
 package ru.vl;
+import org.junit.After;
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -7,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.List;
 
-public class FavoritesTest extends  DriverSetting{
+public class FavoritesTest extends DriverSetting{
 
     @Test
     public void FavoritesTest() {
@@ -34,9 +36,9 @@ public class FavoritesTest extends  DriverSetting{
         btnRestore.click();
 
 
-        //List<WebElement> listCatgrs = driver.findElements(By.className("j_parentNode  has-children"));
-        //listCatgrs.contains("id");
+        /*List<WebElement> listCatgrs = driver.findElements(By.className("j_parentNode  has-children"));
+        listCatgrs.contains("id");
+        */
 
     }
-
 }
